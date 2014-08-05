@@ -186,25 +186,6 @@
     * Arch Linux
     * Linux From Stratch
 
-## 爱折腾
-
-* 把常用但不熟悉的东西搞懂
-    * BIOS
-    * UEFI
-    * GPT
-    * OS Kernel
-*
-* 找点新东西玩玩
-    * 拓展视野，看看行业与世界
-    * 保持热情
-    * 提升自己的技能
-
-
-## 找榜样，找组织
-
-* 你不是一个人在战斗
-* 保持热情
-
 ## 参考：
 
 * Refactor Your Productivity
