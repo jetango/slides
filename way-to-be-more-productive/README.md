@@ -192,3 +192,22 @@
     * https://speakerdeck.com/ihid/refactor-your-productivity
 * Productivity Tricks
     * https://speakerdeck.com/skanev/productivity-tricks
+
+## 照片来源：
+
+* https://flic.kr/p/7KsvGs
+* https://flic.kr/p/nbFBmM
+* https://flic.kr/p/2U3iX
+* https://flic.kr/p/7xKRkz
+* https://flic.kr/p/9URK6W
+* https://flic.kr/p/qPSgz
+* https://flic.kr/p/9TdxYo
+* https://flic.kr/p/4zpBA
+* https://flic.kr/p/bE6qCi
+* https://flic.kr/p/5J7NLu
+* http://marcscott.github.io/my_lol_cat/
+* http://www.lifehacker.com.au/2012/09/ask-lh-what-is-markdown-and-why-would-i-want-to-use-it/
+* http://oskarkorczak.blogspot.jp/2012/09/basic-development-cycle-in-git.html
+* http://nvie.com/posts/a-successful-git-branching-model/
+* http://www.cultofmac.com/269328/handy-keyboard-shortcuts-shut-sleep-mac-os-x-tips/
+* http://www.esa.int/Our_Activities/Human_Spaceflight/Mission_Odissea_-_F._De_Winne_-_english/Soyuz_launcher_transferred_to_launch_pad
