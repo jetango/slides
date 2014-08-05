@@ -1,4 +1,5 @@
 // Require Node modules in the browser thanks to Browserify: http://browserify.org
+
 var bespoke = require('bespoke'),
   cube = require('bespoke-theme-cube'),
   keys = require('bespoke-keys'),
@@ -10,8 +11,9 @@ var bespoke = require('bespoke'),
   state = require('bespoke-state'),
   forms = require('bespoke-forms');
 
+
 // Bespoke.js
-bespoke.from('article', [
+var deck = bespoke.from('article', [
   cube(),
   keys(),
   touch(),
@@ -23,8 +25,11 @@ bespoke.from('article', [
   forms()
 ]);
 
+var el = document.createElement('div');
+el.className = 'background';
+deck.parent.appendChild(el);
+
 // Prism syntax highlighting
 // This is actually loaded from "bower_components" thanks to
 // debowerify: https://github.com/eugeneware/debowerify
 require('prism');
-
