@@ -12,8 +12,9 @@ html
 
     article
 
-      section
+      section(data-bespoke-state='office')
         h1 提升生产力之路
+        img.avatar(src='/images/avatar.png')
 
       section
         h2.bullet 本主题
@@ -52,6 +53,19 @@ html
         h3 很好，现在告诉我应该怎么做？
 
       section.light(data-bespoke-state='cyan')
+        h2 找到兴趣点
+        h3 兴趣是最大的推动力
+      
+      section(data-bespoke-state='dog-in-bed')
+        h2.bullet 什么推动我前进？
+        ul
+          li Money
+          li 我就是喜欢写代码
+          li 学点什么
+          li 做点什么
+          li 让世界变得更美好
+
+      section.light(data-bespoke-state='green')
         h2 投入时间
         h3 花时间才会有回报
 
@@ -70,21 +84,7 @@ html
           li 1 * 365 * 3 = 1095 小时
           li (5 + 10) * 52 * 3 = 2340 小时
           li 业余爱好还好啦
-
-        
-      section.light(data-bespoke-state='red')
-        h2 找到兴趣点
-        h3 兴趣是最大的推动力
-
-      
-      section(data-bespoke-state='dog-in-bed')
-        h2.bullet 什么推动我前进？
-        ul
-          li Money
-          li 我就是喜欢写代码
-          li 学点什么
-          li 做点什么
-          li 让世界变得更美好
+          li 要有长期坚持的心理准备
 
       section.light(data-bespoke-state='pink')
         h2 保持健康
@@ -118,7 +118,7 @@ html
 
       section.light(data-bespoke-state='blue')      
         h2 输出来自输入
-        h3 吃什么吐什么
+        h3 “博观而约取，厚积而薄发，吾告子止于此矣。”
 
       section(data-bespoke-state='coffee')
         h2.bullet "程序员是一种将咖啡转换为代码的神奇物种。"
@@ -180,7 +180,7 @@ html
           li 一般只做到周的计划
           li 专注于今天，现在
 
-      section.light(data-bespoke-state='green')
+      section(data-bespoke-state='record')
         h2.bullet 反馈与回顾
         ul
           li 记录做过的事情
@@ -204,6 +204,7 @@ html
           li 不用纠结好不好用
           li 不用纠结好不好看
           li 简单有效
+          li 如果身边没有纸笔（你应该考虑带着）
           li Reminder / Note (iOS)
           li Keep (Android)
 
@@ -243,7 +244,7 @@ html
           li 因为紧急重要的事情是当面或电话沟通的
           li 把重点需要跟进的标记出来
           li 但不是现在处理
-          li 可以考虑往Gmail备份一份，搜索比较好用
+          li 可以考虑往Gmail备份，搜索比较好用
 
       section(data-bespoke-state='plaintext')
         h2.bullet 内容请使用纯文本
@@ -279,7 +280,7 @@ html
         h2.bullet Git 托管
         ul
           li GitHub （其实这是一个社交网站）
-          li GitLab 支持私有
+          li GitLab 免费私有项目&自己架设
           li Fork & Pull-Request 方便合作
           li 支持代码审查、持续集成
           li 方便展示工作
@@ -302,15 +303,38 @@ html
           li 基于Web，意味着跟系统无关
           li 有API可以自己扩展！（大赞）
 
+      section(data-bespoke-state='arduino')
+        h2.bullet 拥抱开源
+        ul
+          li 开放
+          li 自由
+          li 安全
+          li 多数是免费的，支持商业使用
+          li 贡献
+
       section.light(data-bespoke-state='red')
         h2 养成好习惯
         h3 作风与习惯代表一个人
 
       section(data-bespoke-state='mindblown')
-        h2.bullet 如何引入新技巧
+        h2.bullet 尝试新的东西
         ul
+          li 换一种思路
+          li 跳出固有范式
+          li 看看别人是怎么玩的
+          li 切忌盲从
+          li 学以致用
+          li 有助保持热情与动力
+
+      section(data-bespoke-state='mindblown')
+        h2.bullet 引入新技巧最佳切入点
+        ul
+          li Copy & Paste
+          li 但是不要真Paste
+          li Learn something, the hard way
           li 一次不宜过多
           li 循序渐进
+          li 坚持
           li 找人一起玩是比较好的
 
       section(data-bespoke-state='search')
@@ -321,7 +345,7 @@ html
           li 专业请放狗
 
       section(data-bespoke-state='google')
-        h2.bullet Google使用技巧
+        h2.bullet 放狗技巧
         ul
           li define:
           li site:
@@ -353,7 +377,7 @@ html
           li Alfred (Mac OS X) 好贵的，我没用过
           li Unix/Linux 比较注重这个，不论什么DE或WM一般都自带
 
-      section
+      section(data-bespoke-state='vim-cheatsheet')
         h2.bullet 深入一个编辑器
         ul
           li 好的编辑器提升效率
@@ -364,18 +388,22 @@ html
 
       section
         h2.bullet IDE?
+
+      section(data-bespoke-state='no')
+
+      section(data-bespoke-state='cat-and-keyboard')
+        h2.bullet 我一般不用IDE
         ul
-          li 我真不用IDE，除非搞不定
           li 但我可以推荐我用过的
           li Eclipse ，老牌，通用，管用
           li PyCharm / PyDev / Ulipad
           li Visual Studio （说好不打脸的！）
 
-      section
+      section(data-bespoke-state='slowclap')
         h2 Vim & Emacs
-        h3 说好不打脸的！
+        h3 乡亲们都说好
 
-      section
+      section(data-bespoke-state='editor')
         h2.bullet 为什么推荐 Vim & Emacs
         ul
           li 30余年老字号
@@ -383,7 +411,7 @@ html
           li 投入有回报
           li 几乎无所不能
 
-      section
+      section(data-bespoke-state='bram')
         h2.bullet Vim
         ul
           li 编辑器之神
@@ -392,20 +420,30 @@ html
           li 扩展丰富
           li 脚本语言扩展（推荐用Python）
 
-      section
+      section(data-bespoke-state='stallman')
         h2.bullet Emacs
         ul
           li 神之编辑器
           li “Emacs是一个仅缺乏优秀编辑器的操作系统。”
-          li Ctrl
+          li Ctrl/Meta
           li Emacs Lisp
           li ELPA
+          li 你甚至可以用 Emacs 煮咖啡 (HTCPCP)
 
-      section
+      section(data-bespoke-state='learn-english')
+        h2.bullet 学好外语
+        ul
+          li 主要是英语
+          li 大多数资料、文档都是英语的
+          li 技术社区多使用英语交流
+          li 编程语言多是基于英语
+          li 不受二手（劣质）翻译的迫害
+
+      section.light(data-bespoke-state='cyan')
         h2 自动化
         h3 让机器为我干活
 
-      section
+      section(data-bespoke-state='script')
         h2.bullet 学习一门脚本语言
         ul
           li Ruby / Python / Perl / JavaScript
@@ -416,49 +454,53 @@ html
           li Apple Script
           li 按键精灵？（说好不打脸的！）
 
-      section
+      section(data-bespoke-state='cloud')
         h2.bullet 云服务与同步
         ul
           li Google Chrome
           li Dropbox
           li Apple iCloud
 
-      section
+      section.light(data-bespoke-state='green')
         h2 一些值得考虑尝试的东西
         h3 真的不是在做广告啦
 
-      section
+      section(data-bespoke-state='clap')
         h2.bullet Mac 设备以及 Mac OS X
         ul
-          li 硬件的工业设计很出色（拆过你就知道）
+          li 硬件的工业设计很出色
+          li 是我见过最好拆的笔电
           li Mac OS X 系统好用
+          li 适合玩音乐、美术的巨巨
           li 漂亮
           li 贵、贵、贵
-          li 我还是更喜欢iPod系列
-          li 已经不玩Mac了
+          li 可以考虑搞个Mac Mini玩啦
+          li 我还是更喜欢iPod系列（虽然不支持无损啦）
+          li 去年开始不玩Mac了
 
-      section
+      section(data-bespoke-state='linux')
         h2.bullet Linux & Unix
         ul
-          li 实践证明
-          li 易于安装与使用
-          li Ubuntu / Mint / ElementaryOS
-          li Fedora / CentOS 
-          li OpenSUSE
-          li 高度定制
-          li Debian / Archlinux / Slackware
-          li Gentoo / Funtoo / LFS
-          li Unix
-          li FreeBSD / OpenBSD / OpenSolaris
+          li 用途广
+          li 桌面 & 服务器 & 移动 & 嵌入式设备
+          li 门槛低，玩家多
+          li 深入操作系统内核
+          li 折腾硬件
 
-      section
+      section(data-bespoke-state='upsuperx')
+        img.upsuperx(src='/images/upsuperx.png')
+
+      section(data-bespoke-state='firefox')
         h2.bullet 浏览器的实现
         ul
           li Gecko (Mozilla Firefox)
           li Blink (Google Chromium)
           li Webkit (Apple Safari)
+          li 不了解都不敢跟人说自己搞互联网技术的
 
-      section
+      section(data-bespoke-state='errorists')
+
+      section(data-bespoke-state='errorists')
         h2.bullet 搞把满意的键盘
         ul
           li 别不在意
@@ -466,9 +508,12 @@ html
           li 注意用途
           li 布局、功能
           li 键程、键轴、键帽
-          li $ 量力而行。
-
-      section
+          li 这个坑和耳机很像
+          li 耳机更加哲学啦
+          li 切勿盲目跟风，量力而为
+          li 不在于贵，在于适合
+          
+      section.long-list(data-bespoke-state='key-indicator')
         h2.bullet 挑选键盘
         ul
           li 这不是广告，是经验
@@ -478,12 +523,12 @@ html
           li 红轴适中，也适合打字
           li 黑轴，压力克数大，适合玩游戏
           li 更小众的轴都是玩家玩的，就不推荐了
-          li 有无钢板
-          li 静电的坑太大，也不推荐了
+          li 有无钢板（青、茶强烈推荐带钢板的）
+          li 静电电容的坑太大，也不推荐了
           li 104 / 87 / MINI 布局
           li 自制、改造（DIY）
 
-      section
+      section(data-bespoke-state='seinfeldwhoa')
         h2.bullet 总结一下
         ul
           li 投入时间，肯投入，才有回报
@@ -493,12 +538,49 @@ html
           li 找到适合自己的方法与工具
           li 养成良好习惯，培养技能
           li 尝试一些新东西，拓宽广度的同时强化深度
-          li 
+
+      section(data-bespoke-state='question')
 
       section
-        h2 Q & A 
+        h2 本投影使用以下工具制作
+        p 投影套件 bespoke.js & gulp & yeoman
+        p gif 图片来自 giphy.com
+        p 字体使用Noto Sans与Noto Sans S Chinese
+
+      section.photo-sources
+        h2 本投影使用的照片来源
+        p https://flic.kr/p/7KsvGs
+        p https://flic.kr/p/nbFBmM
+        p https://flic.kr/p/2U3iX
+        p https://flic.kr/p/7xKRkz
+        p https://flic.kr/p/9URK6W
+        p https://flic.kr/p/qPSgz
+        p https://flic.kr/p/9TdxYo
+        p https://flic.kr/p/4zpBA
+        p https://flic.kr/p/bE6qCi
+        p https://flic.kr/p/5J7NLu
+        p https://flic.kr/p/eyoMnj
+        p https://flic.kr/p/4rBXHR
+        p https://flic.kr/p/eH2gRY
+        p https://flic.kr/p/kogyDC
+        p https://flic.kr/p/bXia2m
+        p https://flic.kr/p/4tvwvE
+        p https://flic.kr/p/6zSqHz
+        p https://flic.kr/p/9ZSn1D
+        p https://flic.kr/p/o4KkF
+        p https://flic.kr/p/QdBKT
+        p https://flic.kr/p/9MJvj6
+        p https://flic.kr/p/79BLam
+        p http://marcscott.github.io/my_lol_cat/
+        p http://www.lifehacker.com.au/2012/09/ask-lh-what-is-markdown-and-why-would-i-want-to-use-it/
+        p http://oskarkorczak.blogspot.jp/2012/09/basic-development-cycle-in-git.html
+        p http://nvie.com/posts/a-successful-git-branching-model/
+        p http://www.cultofmac.com/269328/handy-keyboard-shortcuts-shut-sleep-mac-os-x-tips/
+        p http://www.esa.int/Our_Activities/Human_Spaceflight/Mission_Odissea_-_F._De_Winne_-_english/Soyuz_launcher_transferred_to_launch_pad
+        p http://www.paws-a-while.org/80809-2-2/80809-2/
 
       section
         h2 Thank You
+        img.avatar(src='/images/avatar.png')
 
     script(src='build/build.js')
