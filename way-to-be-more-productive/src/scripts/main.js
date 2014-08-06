@@ -13,7 +13,7 @@ var bespoke = require('bespoke'),
 
 
 // Bespoke.js
-var deck = bespoke.from('article', [
+bespoke.from('article', [
   cube(),
   keys(),
   touch(),
@@ -25,9 +25,13 @@ var deck = bespoke.from('article', [
   forms()
 ]);
 
-var el = document.createElement('div');
-el.className = 'background';
-deck.parent.appendChild(el);
+var sections = document.getElementsByTagName('body')[0]
+  .getElementsByTagName('section');
+for (var i = 0; i < sections.length; i++) {
+  var div = document.createElement('div');
+  div.className = 'background';
+  sections[i].appendChild(div);
+};
 
 // Prism syntax highlighting
 // This is actually loaded from "bower_components" thanks to
